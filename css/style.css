@@ -5,23 +5,56 @@
   --licht:#F9EDD9;
   /*--nacht: var(--nacht);*/
   --nacht:#0E2720;
-  /*--himmel: var(--);*/
+  /*--himmel: var(--himmel);*/
   --himmel:#0093ED;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{background-color:#0E2720;}
 *{
   font-family: "poppins", sans-serif;
-  font-weight:500;
-  font-size:16px;
+  font-size: 20px;
+  font-weight: 400 ;
   color: #F9EDD9;
   text-decoration:none;
 }
 
+h1{
+  font-size: 100px;
+  font-weight: 200;
+}
+
+h2{
+  font-size: 80px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 40px;
+  font-weight: 300;
+}
+
 h4{
   font-size: 37px;
+  font-weight: 600;
   color: #0E2720;
 }
+
+h5{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fett{
+  font-weight: 600;
+}
+
+h6{
+  font-size: 14px;
+  font-weight: 400;
+}
+
 
 header{
     display:flex;
@@ -96,6 +129,10 @@ ul{
 flex: 1;
 }
 
+.footer_hover:hover {
+  color: var(--licht);
+}
+
 .footer_mitte_1{
 flex: 1;
 }
@@ -104,9 +141,17 @@ flex: 1;
 flex: 1;
 }
 
+.outlook:hover{
+  color:var(--licht)
+}
+
 .footer_rechts{
 flex: 1;
 padding-left: 200px;
+}
+
+.footer_rechts li a:hover {
+  color:var(--licht);
 }
 
 
