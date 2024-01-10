@@ -20,6 +20,11 @@ body{background-color:#0E2720;}
   text-decoration:none;
 }
 
+.center{
+  text-align: center;
+  font-weight: 600;
+}
+
 h1{
   font-size: 100px;
   font-weight: 200;
@@ -38,7 +43,6 @@ h3{
 h4{
   font-size: 37px;
   font-weight: 600;
-  color: #0E2720;
 }
 
 h5{
@@ -55,6 +59,8 @@ h6{
   font-weight: 400;
 }
 
+
+/* HEADER */
 
 header{
     display:flex;
@@ -91,6 +97,110 @@ header{
   color:var(--lavendel);
 }
 
+
+
+/* MAIN */
+
+
+
+
+.home{
+  display:flex;
+  padding: 100px;
+  background-color: black;
+}
+.home_left{
+  flex: 1;
+}
+
+button{
+  font-size: 14px;
+  background-color: #E187F0;
+  color: #0E2720;
+  border-radius: 25px;
+  border-width: 10px;
+  border-color: #E187F0;
+  border-style: solid;
+}
+
+.schlüsselloch{
+  align-items: center;
+}
+
+.schweiz{
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+
+.philosophie{
+  display:flex;
+}
+
+.philo_links{
+  flex: 1;
+  padding: 10px;
+}
+
+.philo_liste{
+  flex: 1;
+  padding: 10px;
+}
+
+main button{
+  font-size: 14px;
+  background-color: #0093ED;
+  color: #0E2720;
+  border-radius: 25px;
+  border-width: 10px;
+  border-color: #0093ED;
+  border-style: solid;
+}
+
+.feedback{
+  display: flex;
+}
+
+.rezension1{
+  display: flex;
+  flex: 1;
+  padding: 30px;
+  margin: 100px;
+  background-color: #F9EDD9;
+}
+
+.rezension_picture{
+  flex: 1;
+}
+
+.rezension_text{
+  flex: 1.5;
+}
+
+.rezension2{
+  display: flex;
+  flex: 1;
+  padding: 30px;
+  margin: 100px;
+  background-color: #E187F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+
 footer{
   margin-top: auto;
   background-color: #0093ED;
@@ -98,6 +208,10 @@ footer{
 }
 
 footer a{
+  color: #0E2720;
+}
+
+footer h4{
   color: #0E2720;
 }
 
@@ -153,6 +267,10 @@ padding-left: 200px;
 .footer_rechts li a:hover {
   color:var(--licht);
 }
+
+
+
+
 
 
 
