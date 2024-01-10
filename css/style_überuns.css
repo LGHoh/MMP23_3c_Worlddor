@@ -38,7 +38,7 @@ h3{
 h4{
   font-size: 37px;
   font-weight: 600;
-  color: #0E2720;
+  padding: 20px 0px 20px 0px;
 }
 
 h5{
@@ -94,7 +94,10 @@ header{
 footer{
   margin-top: auto;
   background-color: #0093ED;
-  padding: 20px;
+  padding: 20px 0px 0px 0px;
+}
+footer h4 {
+  color: #0E2720;
 }
 
 footer a{
@@ -118,7 +121,6 @@ footer a{
   background-color: #0093ED;
   padding: 20px;
 }
-
 
 
 ul{
@@ -154,14 +156,99 @@ padding-left: 200px;
   color:var(--licht);
 }
 
+main div{
+  box-sizing: border-box;
+  padding-bottom: 30px;
+  }
 
+.über_uns_beige {
+  color: var(--licht);
+}
+.über_uns_blau {
+  color: var(--himmel);
+}
+.über_uns_pink {
+  color: var(--lavendel);
+}
 
+.pfeil {
+  size: auto;
+  padding-left: 5%;
+}
 
+.überuns {
+  display: flex;
+ justify-content: left;
+  padding: 0 0 0 0 ;
+  margin: 1%;
+}
 
+.überschrift {
+ text-align: center;
+}
+.werte{
+  display: flex;
+  justify-content: center;
+}
+.werte_beige {
+  box-sizing: border-box;
+  border: solid 3px; color: var(--licht);
+  padding: 0 0 0 0;
+  width: 670px;
+  height: 322px;
+  margin: 20px 0 10px 10px;
+}
 
+.werte_blau {
+  box-sizing: border-box;
+  border: solid 3px; color: var(--himmel);
+  padding: 0 0 0 0;
+  width: 670px;
+  height: 322px;
+  margin: 20px 10px 10px 0;
+}
 
+.werte_pink {
+  box-sizing: border-box;
+  border: solid 3px; color: var(--lavendel);
+  padding: 0 0 0 0;
+  width: 670px;
+  height: 322px;
+  margin: 0px auto 200px auto;
+  
+}
 
+.werte_titel { 
+  font-weight: 300; 
+  color: var(--himmel); 
+  text-align: center;
+}
+.werte_text {
+  text-align: center;
+} 
 
+.nebeneinander {
+  display: flex;
+  margin: 0 0 0 0;
+}
+.business-card {
+  background-color: #F9EDD9;
+  padding: 20px; /* Adjust the padding according to your design */
+  display: flex;
+  flex-direction: column;
+  height: 483px;
+  width: 553px;
+}
+
+.business-card h4,
+.business-card h5 {
+    color: #0E2720;
+    margin: 0; /* Remove default margin */
+}
+
+.business-card img {
+    margin-left: 20px; /* Adjust the margin between text and image */
+}
 
 
 /*_______________________Login Form_____________________*/
