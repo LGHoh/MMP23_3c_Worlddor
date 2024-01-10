@@ -93,8 +93,23 @@ header{
 
 
 
-
 /* MAIN */
+
+
+.impressum{
+  display: flex;
+  padding: 40px;
+}
+
+.impressum_links{
+  flex: 1;
+}
+
+.impressum_rechts{
+  flex: 2;
+}
+
+
 
 
 
@@ -103,11 +118,6 @@ header{
 
 
 /* FOOTER */
-
-
-
-
-
 
 
 

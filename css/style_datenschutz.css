@@ -93,21 +93,27 @@ header{
 
 
 
-
 /* MAIN */
 
 
+.datenschutz{
+  display: flex;
+  margin: 120px;
+}
+
+.datenschutz_links{
+  flex: 1;
+}
+
+.datenschutz_rechts{
+  flex: 1.5;
+}
 
 
 
 
 
 /* FOOTER */
-
-
-
-
-
 
 
 
