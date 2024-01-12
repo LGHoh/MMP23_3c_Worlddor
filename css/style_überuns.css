@@ -230,20 +230,34 @@ main div{
 .nebeneinander {
   display: flex;
   margin: 0 0 0 0;
+  align-self: center;
 }
-.business-card {
+.businesscard {
   background-color: #F9EDD9;
   padding: 20px; /* Adjust the padding according to your design */
   display: flex;
-  flex-direction: column;
   height: 483px;
   width: 553px;
+  margin: auto;
+  padding-bottom: 30px;
+  
 }
 
-.business-card h4,
-.business-card h5 {
+.businesscard h4 {
+  color: #0E2720;
+    width: auto;
+    margin: 0;/* Remove default margin */
+  
+}
+.businesscard h5 {
     color: #0E2720;
     margin: 0; /* Remove default margin */
+    width: 307px;
+    padding-top: 10px;
+}
+
+.zitat {
+  width: 60%;
 }
 
 .business-card img {
