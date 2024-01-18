@@ -1,7 +1,9 @@
 Worlddoor
-Worlddor ist ein Start-up, das will das Reiseverhalten umkrämpeln
+Worlddor ist ein Start-up, welches das Reiseverhalten von Schweizer:innen nachhaltig verändern will. 
+Anstatt Reisen in das Ferne ausland zu verkaufen, zeigt Worlddoor wo man sich lokal ganz weit weg fühlen kann. 
+Ganz nach der Tagline: Lokale Reisen mit Weltcharakter.
 
-Unterseiten & "Features"
+Unterseiten & "Features":
 
 Karte: Finde neue Reiseziele Schweiz, welche dich fühlen lassen, als wärst du ganz weit weg. (Noch nicht funktionsfähig)
 
