@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Titelseite</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
 
 </head>
 <body>
-      <header>
+    <div class="home">
+        <ul class="home_left">
+            <li><img class="logo_rosa" src="Logos/Logo_Rosa.svg"></li>
+            <li><h4>Lokale Reisen <br> mit Weltcharakter</h4></li>
+            <li><button>Entdecke die «Welt»</button></li>
+        </ul>
+            <img class="schlüsselloch" src="Assets/Schlüsselloch.svg" width="460px" height="620px">
+    </div>
+    <header>
         <nav>
             <ul class="nav_links">
                 <li><a href="#">Reisen</a></li>
-                <li><a href="#">Über uns</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="Überuns.html">Über uns</a></li>
+                <li><a href="Kontakt.html">Kontakt</a></li>
             </ul>
         </nav>
-        <div class="logo">
+        <div class="logo" href="index.html">
                 <a href="index.html">
                 <img class="logo_blau" src="Logos/Logo_Homepage.svg" alt="Logo Worlddoor blau">
                 </a>
@@ -33,53 +41,106 @@
   
    
     <main>
+        <br><br><br><br>
+        <h3 style="color: var(--himmel);">Entdecken</h3>
+        <br><br><br>
+        <h3 class="center">Lerne deine Heimat neu kennen</h3>
+        <img class="schweiz" src="Assets/Schweiz_Orte.svg" width="1219px" height="816px">
+
+        <h3 style="color: var(--himmel);">Philosophie</h3>
+        <div class="philosophie">
+            <h3 class="philo_links">«Die wirkliche Entdeckungsreise besteht darin, Altes mit neuen Augen zu sehen.»</h3>
+        <ul class="philo_liste">
+            <li><h5 class="philo_rechts">Als Kinder konnten wir es noch  - schnell in eine andere Welt eintauchen, die unweit von allem Bekannten ist. Während dem Älterwerden verschliesst sich diese Fähigkeit irgendwo in unserem Kopf. Worlddoor öffnet dir den Zugang zu ihr wieder.</h5></li>
+            <li><button href="Überuns.html">Lerne unsere Werte kennen</button></li>
+        </ul>
+        </div>
+
+        <br><br><br><br><br><br>
+        <h3 style="color: var(--lavendel);">Feedback</h3>
+        <br><br><br>
+        <h4 class="center">Das sagen unsere Outdoorer</h4>
+        <div class="feedback">
+            <div class="rezension1">
+                <div class="rezension_picture">
+                <img src="Assets/Rezension1/Senior.svg">
+                </div>
+                <div class="rezension_text">
+                <h5 style="font-weight: 600; color: var(--nacht)">Eric K.</h5>
+                <h5 style="color: var(--nacht)">Unglaublich wie viel ich von der «Welt» in so kurzer Zeit sehen konnte ;)</h5>
+                <h6 style="color: var(--nacht)">Bewertung weiterlesen</h6>
+                </li><img src="Assets/Rezension1/Bewertung.svg">
+                </div>
+            </div>
+
+            <div class="rezension2">
+                <div class="rezension_picture">
+                    <img src="Assets/Rezension2/Mask group.svg">
+                    </div>
+                    <div class="rezension_text">
+                    <h5 style="font-weight: 600; color: var(--nacht)">Fabienne S.</h5>
+                    <h5 style="color: var(--nacht)">Klar ist es nicht gleich wie im Ausland. Trotzdem konnten wir super abschalten [...]</h5>
+                    <h6 style="color: var(--nacht)">Bewertung weiterlesen</h6>
+                    <img src="Assets/Rezension1/Bewertung.svg">
+                    </div>
+            </div>
+        </div>
     </main>
 
 
-  <footer>
-
-    <div class="footer_titel">
-        <h4>Folg uns um die «Welt»</h4>
-    </div>
-
-    <div class="SoMe_logos">
-        <img src="Assets/SOME.svg" alt="SoMe Logos">
-    </div>
-
-    <div class="footer_bottom">
-        <div class="footer_links">
-            <ul>
-                <li><a class="fett">Menü</a></li>
-                <li><a class="footer_hover" href="#">Reisen</a></li>
-                <li><a class="footer_hover" href="#">Über uns</a></li>
-                <li><a class="footer_hover" href="#">Kontakt</a></li>
-            </ul>
+    <footer>
+        <div class="footer_titel">
+            <h4>Folg uns um die «Welt»</h4>
         </div>
-
-        <div class="footer_mitte_1">
-            <ul>
-                <li><a class="fett">Worlddoor AG</a></li>
-                <li><a>Sommeraustrasse 32</a></li>
-                <li><a>7000 Luzern</a></li>
-            </ul>
+    
+        <div class="SoMe_logos">
+            <img src="Assets/SOME.svg" alt="SoMe Logos">
         </div>
-
-        <div class="footer_mitte_2">
-            <ul>
-                <li><a>T 076 302 01 07</a></li>
-                <li><a class="outlook" href=mailto:“disha@uplers.com”>grüezi@worlddoor.ch</a></li>
-            </ul>
+    
+        <div class="footer_bottom">
+            <div class="footer_links">
+                <ul>
+                    <li><a class="fett">Menü</a></li>
+                    <li><a class="footer_hover" href="#">Reisen</a></li>
+                    <li><a class="footer_hover" href="Überuns.html">Über uns</a></li>
+                    <li><a class="footer_hover" href="Kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+    
+                <div class="footer_mitte_2">
+                <ul>
+                    <li><a class="fett">Öffnungszeiten</a></li>
+                    <li><a>Montag-Freitag </a></li>
+                    <li><a>08.30-17.00</a></li>
+                    <li><a>Samstag</a></li>
+                    <li><a>08.30-13.00</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_mitte_1">
+                <ul>
+                    <li><a class="fett">Worlddoor AG</a></li>
+                    <li><a>Sommeraustrasse 32</a></li>
+                    <li><a>7000 Luzern</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer_mitte_2">
+                <ul>
+                    <li><a>T 076 302 01 07</a></li>
+                    <li><a class="outlook" href=mailto:“grüezi@worlddoor.ch”>grüezi@worlddoor.ch</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_rechts">
+                <ul>
+                    <li><a class="fett" href="Impressum.html">Impressum</a></li>
+                    <li><a class="fett" href="Datenschutz.html">Datenschutz</a></li>
+                </ul>
+            </div>
         </div>
-
-        <div class="footer_rechts">
-            <ul>
-                <li><a class="fett" href="#">Impressum</a></li>
-                <li><a class="fett" href="#">Datenschutz</a></li>
-            </ul>
-        </div>
-    </div>
-
-  </footer>
+    
+      </footer>
 
 
 </body>

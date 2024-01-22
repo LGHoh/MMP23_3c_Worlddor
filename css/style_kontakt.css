@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+  /*--lavendel: var(--lavendel);*/
+  --lavendel:#E187F0;
+  /*--licht: var(--licht);*/
+  --licht:#F9EDD9;
+  /*--nacht: var(--nacht);*/
+  --nacht:#0E2720;
+  /*--himmel: var(--himmel);*/
+  --himmel:#0093ED;
+}
+body{background-color:#0E2720;}
+*{
+  font-family: "poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400 ;
+  color: #F9EDD9;
+  text-decoration:none;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: 200;
+}
+
+h2{
+  font-size: 80px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h4{
+  font-size: 37px;
+  font-weight: 600;
+  padding: 5px 0px 5px 0px;
+}
+
+h5{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fett{
+  font-weight: 600;
+}
+
+h6{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+  }
+
+.nav_links{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style:none;
+  padding: 20px;
+  margin:0px;
+}
+
+.nav_links li a{
+  display: block;
+  box-sizing:border-box;
+  height:40px;
+  padding: 40px 15px 0 15px;
+}
+
+.logo{
+  padding: 80px 15px 0px 15px;
+}
+
+.login{
+  padding: 80px 180px 0px 15px;
+}
+
+.nav_links li a:hover {
+  color:var(--lavendel);
+}
+.nav_links li.active a{
+  color:var(--lavendel);
+  }
+
+footer{
+  margin-top: auto;
+  background-color: #0093ED;
+  padding: 20px 0px 0px 0px;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+footer h4 {
+  color: #0E2720;
+}
+
+footer a{
+  color: #0E2720;
+}
+
+.footer_titel{
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.SoMe_logos{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.footer_bottom{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  background-color: #0093ED;
+  padding: 20px;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer_links{
+flex: 1;
+}
+
+.footer_hover:hover {
+  color: var(--licht);
+}
+
+.footer_mitte_1{
+flex: 1;
+}
+
+.footer_mitte_2{
+flex: 1;
+}
+
+.outlook:hover{
+  color:var(--licht)
+}
+
+.footer_rechts{
+flex: 1;
+padding-left: 200px;
+}
+
+.footer_rechts li a:hover {
+  color:var(--licht);
+}
+
+.überschrift {
+ text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.Fahnen {
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+  padding-bottom: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.visitenkarte {
+  background: var(--licht);
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Geschäft{
+  text-align: center;
+}
+
+.Name , .Nummer, .Email{
+  padding: 0 0 0 0;
+  padding-left: 10px;
+  color: var(--nacht);
+}
+
+.Email {
+  font-size: 20px;
+  padding: 0 0 0 0;
+  
+}
+
+.Email:hover {
+  color: var(--himmel);
+  cursor: pointer;
+}
+.Illustration {
+  padding: 0 0 0 0;
+}
+
+.kontakte{
+padding-bottom: 0px;
+text-align: center;
+}
+
+.gesamt{
+  width: max-content;
+}
+
+.Kontaktegesamt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+.stellenanzeige {
+  border: #0093ED solid 2px;
+  background-color: var(--licht);
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: var(--nacht);
+  width: fit-content;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.Logodaneben{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+.LogoBewerbung{
+display: block;
+margin: auto 10px auto 0;
+}
+
+.NameVorname{
+ margin-bottom: 10px;
+ padding: 0 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+main div h5 {
+  color: var(--nacht);
+  font-weight: 300;
+  font-size: 27px;
+  padding: 0 0 0 0;
+}
+main div img {
+  padding: 0 0 0 0;
+}
+
+main div label, main div form{  /*Formular Textfarbe*/
+  color: var(--nacht);
+  font-weight: 300;
+  padding-bottom: 3px;
+ 
+}
+input, select, textarea{  /*Textfarbe Inputs*/
+  color: var(--nacht);
+  font-weight: 300;
+}
+
+button {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--licht);
+  background-color: var(--himmel);
+  text-align: center;
+  border-radius: 20px;
+  height: 43px;
+  border: none;
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+  text-align: right;
+}
+button:hover {
+  background-color: var(--nacht);
+  color: var(--himmel);
+  cursor: pointer;
+}
+.inputbox {
+  border: var(--himmel) solid 2px;
+  background-color: var(--licht);
+  color: var(--nacht);
+}
+
+.dateibox {
+  color: var(--nacht);
+  font-size: 14px;
+}
+
+/* file upload button */
+input[type="file"]::file-selector-button {
+  padding: 5px 10px 5px 10px;
+  height: fit-content;
+  cursor: pointer;
+  background-color: var(--licht);
+  border: 2px solid; color: var(--himmel);
+  margin-right: 16px;
+  transition: background-color 200ms;
+  
+}
+
+/* file upload button hover state */
+input[type="file"]::file-selector-button:hover {
+  background-color: var(--nacht)
+}
+
+/* file upload button active state */
+input[type="file"]::file-selector-button:active {
+  background-color: var(--lavendel);
+}
+
+  @media (max-width: 1400px) {
+  .Kontaktegesamt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Fahnen{
+    flex-direction: column;
+    justify-content: center;
+  }
+#WegweiserSmall {
+  background-image: url("Assets/Illustrationen/Small_Wegweiser_Ueber_uns.svg");
+  display: none;
+}  
+#WegweiserMid {
+  background-image: url("Assets/Illustrationen/Mid_Wegweiser.svg");
+  display: none;
+}
+#WegweiserLarge {
+  background-image: url("Assets/Illustrationen/Large_Wegweiser.svg");
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+@media (max-width: 800px) {
+ .Logodaneben{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+}
